@@ -1,0 +1,75 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    padding: 15px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #dc3545 !important;
+}
+
+.text-secondary {
+    font-size: 0.8rem; /* Taille du texte réduite */
+    font-weight: 400; /* Poids de la police (normal) */
+}
+
+
+.btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-outline-secondary.rounded-circle {
+    background-color: #fff; /* Fond blanc */
+    border: 2px solid #fff; /* Bordure rouge */
+    color: #dc3545; /* Couleur de l'icône rouge */
+    width: 45px; /* Taille du cercle */
+    height: 45px; /* Taille du cercle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre portée légère */
+    transition: all 0.3s ease; /* Animation douce */
+}
+
+.btn-outline-secondary.rounded-circle:hover {
+    background-color: #dc3545; /* Fond rouge au survol */
+    color: #fff; /* Couleur de l'icône en blanc */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Ombre plus forte au survol */
+}
+
+.btn-outline-secondary.rounded-circle i {
+    font-size: 16px; /* Taille réduite de l'icône */
+}
+
+.btn-outline-secondary {
+    border: 1px solid #dc3545;
+    color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #e9ecef;
+    color: #343a40;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
