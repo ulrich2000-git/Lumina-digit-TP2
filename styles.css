@@ -73,3 +73,149 @@ body {
 .navbar-brand img {
     border-radius: 50%;
 }
+
+/* Section d'accueil avec image de fond */
+.hero-section {
+    position: relative;
+    height: 600px; /* Hauteur de la section */
+    background: url('img2.jpeg') no-repeat center center/cover; /* Image d'arrière-plan */
+    overflow: hidden;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Overlay sombre pour l'image */
+}
+
+.hero-section h1 {
+    font-size: 3rem; /* Taille du titre */
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.text-white {
+    font-size: 1rem; /* Taille réduite pour 'Bénin' */
+    font-weight: 500;
+}
+
+/* Boutons de navigation */
+.btn-light {
+    background-color: #ffffff; /* Bouton blanc */
+    color: #333; /* Icône gris foncé */
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: all 0.3s ease;
+}
+
+.btn-light:hover {
+    background-color: #dc3545; /* Fond rouge */
+    color: #fff; /* Icône blanche */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Section principale */
+/* Conteneur de l'image avec une forme ondulée */
+.wavy-image {
+    max-width: 250px; /* Limite la taille de l'image */
+    margin: 0 auto; /* Centre l'image dans la colonne */
+    position: relative;
+    overflow: hidden;
+}
+
+.wavy-image img {
+    width: 100%; /* L'image s'adapte à la taille du conteneur */
+    height: auto; /* Conserve les proportions */
+    object-fit: cover; /* Assure que l'image remplit le conteneur */
+}
+
+
+.bg-light-gray {
+    background-color: #f8f9fa;
+}
+
+/* Statistiques : styles */
+.stats-card {
+    background: #fff;
+    padding: 20px 0;
+    border-right: 2px solid #ddd;
+}
+
+.stats-card:last-child {
+    border-right: none;
+}
+
+.stats-card span {
+    display: inline-flex;
+    align-items: center;
+}
+
+.stats-card i {
+    color: #003366; /* Couleur des icônes */
+}
+
+.stats-card p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    color: #6c757d; /* Texte gris */
+}
+
+/* Couleurs globales */
+.text-primary {
+    color: #003366 !important;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+/* Section entière */
+.verse-section {
+    background-image: url('Rectangle 320.png'); /* Chemin vers l'image de fond */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Carte du verset */
+.verse-card {
+    max-width: 700px;
+    background-color: #ffffff; /* Fond blanc */
+    border-radius: 20px; /* Bords arrondis */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Ombre subtile */
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Bandeau "Versets du Jour" */
+.verse-header {
+    background-color: #003366; /* Couleur principale */
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre sur le bandeau */
+}
+
+/* Texte du verset */
+.verse-text {
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* Référence du verset */
+.verse-reference {
+    font-size: 1rem;
+    color: #003366; /* Couleur principale */
+    font-weight: bold;
+    text-align: right;
+}
