@@ -1,221 +1,510 @@
 body {
-    background-color: #f8f9fa;
+  background-color: #f8f9fa;
 }
 
 .navbar {
-    padding: 15px 0;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+  padding: 15px 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .nav-link {
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 15px;
-    transition: color 0.3s ease;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #dc3545 !important;
+  color: #dc3545 !important;
 }
 
 .text-secondary {
-    font-size: 0.8rem; /* Taille du texte réduite */
-    font-weight: 400; /* Poids de la police (normal) */
+  font-size: 0.8rem; /* Taille du texte réduite */
+  font-weight: 400; /* Poids de la police (normal) */
 }
 
 
 .btn-outline-danger {
-    border-color: #dc3545;
-    color: #dc3545;
-    font-size: 14px;
-    font-weight: bold;
+  border-color: #dc3545;
+  color: #dc3545;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .btn-outline-danger:hover {
-    background-color: #dc3545;
-    color: #fff;
+  background-color: #dc3545;
+  color: #fff;
 }
 
 .btn-outline-secondary.rounded-circle {
-    background-color: #fff; /* Fond blanc */
-    border: 2px solid #fff; /* Bordure rouge */
-    color: #dc3545; /* Couleur de l'icône rouge */
-    width: 45px; /* Taille du cercle */
-    height: 45px; /* Taille du cercle */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre portée légère */
-    transition: all 0.3s ease; /* Animation douce */
+  background-color: #fff; /* Fond blanc */
+  border: 2px solid #fff; /* Bordure rouge */
+  color: #dc3545; /* Couleur de l'icône rouge */
+  width: 45px; /* Taille du cercle */
+  height: 45px; /* Taille du cercle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre portée légère */
+  transition: all 0.3s ease; /* Animation douce */
 }
 
 .btn-outline-secondary.rounded-circle:hover {
-    background-color: #dc3545; /* Fond rouge au survol */
-    color: #fff; /* Couleur de l'icône en blanc */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Ombre plus forte au survol */
+  background-color: #dc3545; /* Fond rouge au survol */
+  color: #fff; /* Couleur de l'icône en blanc */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Ombre plus forte au survol */
 }
 
 .btn-outline-secondary.rounded-circle i {
-    font-size: 16px; /* Taille réduite de l'icône */
+  font-size: 16px; /* Taille réduite de l'icône */
 }
 
 .btn-outline-secondary {
-    border: 1px solid #dc3545;
-    color: #6c757d;
+  border: 1px solid #dc3545;
+  color: #6c757d;
 }
 
 .btn-outline-secondary:hover {
-    background-color: #e9ecef;
-    color: #343a40;
+  background-color: #e9ecef;
+  color: #343a40;
 }
 
 .navbar-brand img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* Section d'accueil avec image de fond */
 .hero-section {
-    position: relative;
-    height: 600px; /* Hauteur de la section */
-    background: url('img2.jpeg') no-repeat center center/cover; /* Image d'arrière-plan */
-    overflow: hidden;
+  position: relative;
+  height: 600px; /* Hauteur de la section */
+  background: url('img2.jpeg') no-repeat center center/cover; /* Image d'arrière-plan */
+  overflow: hidden;
 }
 
 .hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Overlay sombre pour l'image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Overlay sombre pour l'image */
 }
 
 .hero-section h1 {
-    font-size: 3rem; /* Taille du titre */
-    line-height: 1.2;
-    letter-spacing: 1px;
+  font-size: 3rem; /* Taille du titre */
+  line-height: 1.2;
+  letter-spacing: 1px;
 }
 
 .text-white {
-    font-size: 1rem; /* Taille réduite pour 'Bénin' */
-    font-weight: 500;
+  font-size: 1rem; /* Taille réduite pour 'Bénin' */
+  font-weight: 500;
 }
 
 /* Boutons de navigation */
 .btn-light {
-    background-color: #ffffff; /* Bouton blanc */
-    color: #333; /* Icône gris foncé */
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
-    transition: all 0.3s ease;
+  background-color: #ffffff; /* Bouton blanc */
+  color: #333; /* Icône gris foncé */
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  transition: all 0.3s ease;
 }
 
 .btn-light:hover {
-    background-color: #dc3545; /* Fond rouge */
-    color: #fff; /* Icône blanche */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  background-color: #dc3545; /* Fond rouge */
+  color: #fff; /* Icône blanche */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 /* Section principale */
 /* Conteneur de l'image avec une forme ondulée */
 .wavy-image {
-    max-width: 250px; /* Limite la taille de l'image */
-    margin: 0 auto; /* Centre l'image dans la colonne */
-    position: relative;
-    overflow: hidden;
+  max-width: 250px; /* Limite la taille de l'image */
+  margin: 0 auto; /* Centre l'image dans la colonne */
+  position: relative;
+  overflow: hidden;
 }
 
 .wavy-image img {
-    width: 100%; /* L'image s'adapte à la taille du conteneur */
-    height: auto; /* Conserve les proportions */
-    object-fit: cover; /* Assure que l'image remplit le conteneur */
+  width: 100%; /* L'image s'adapte à la taille du conteneur */
+  height: auto; /* Conserve les proportions */
+  object-fit: cover; /* Assure que l'image remplit le conteneur */
 }
 
 
 .bg-light-gray {
-    background-color: #f8f9fa;
+  background-color: #f8f9fa;
 }
 
 /* Statistiques : styles */
 .stats-card {
-    background: #fff;
-    padding: 20px 0;
-    border-right: 2px solid #ddd;
+  background: #fff;
+  padding: 20px 0;
+  border-right: 2px solid #ddd;
 }
 
 .stats-card:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .stats-card span {
-    display: inline-flex;
-    align-items: center;
+  display: inline-flex;
+  align-items: center;
 }
 
 .stats-card i {
-    color: #003366; /* Couleur des icônes */
+  color: #003366; /* Couleur des icônes */
 }
 
 .stats-card p {
-    font-size: 0.9rem;
-    margin-top: 5px;
-    color: #6c757d; /* Texte gris */
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #6c757d; /* Texte gris */
 }
 
 /* Couleurs globales */
 .text-primary {
-    color: #003366 !important;
+  color: #003366 !important;
 }
 
 .text-danger {
-    color: #dc3545 !important;
+  color: #dc3545 !important;
 }
 
 /* Section entière */
 .verse-section {
-    background-image: url('Rectangle 320.png'); /* Chemin vers l'image de fond */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url('Rectangle 320.png'); /* Chemin vers l'image de fond */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Carte du verset */
 .verse-card {
-    max-width: 700px;
-    background-color: #ffffff; /* Fond blanc */
-    border-radius: 20px; /* Bords arrondis */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Ombre subtile */
-    padding: 20px;
-    position: relative;
-    z-index: 2;
+  max-width: 700px;
+  background-color: #ffffff; /* Fond blanc */
+  border-radius: 20px; /* Bords arrondis */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Ombre subtile */
+  padding: 20px;
+  position: relative;
+  z-index: 2;
 }
 
-/* Bandeau "Versets du Jour" */
+/* Section verset du jour */
+.verse-section {
+  width: 100%;
+  max-width: 800%;
+  margin: 20px auto;
+  font-family: 'Arial', sans-serif;
+  border-radius: none;
+  overflow: hidden; /* Pour éviter que le contenu dépasse les bords arrondis */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
 .verse-header {
-    background-color: #003366; /* Couleur principale */
-    font-size: 1rem;
-    display: inline-flex;
-    align-items: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre sur le bandeau */
+  background-image: url('training\ lumina\ digit\ 3.png'); /* Chemin de votre image */
+  background-size: cover; /* L'image couvre toute la section */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px; /* Ajustez la hauteur selon vos besoins */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrer le contenu verticalement */
+  align-items: center; /* Centrer le contenu horizontalement */
+  text-align: center;
+  color: white;
+  padding: 20px;
 }
 
-/* Texte du verset */
-.verse-text {
-    font-size: 1.1rem;
-    color: #555555;
-    line-height: 1.8;
+
+.verse-header h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Ajout d'une ombre pour le texte */
+}
+
+
+.verse-header p {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.verse-header span {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+  /* section activities */
+
+  .social-activities {
+    padding: 40px 20px;
     text-align: center;
+    background-color: #fff;
+  }
+
+  
+  .social-activities .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  
+  .social-activities h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  
+  .social-activities p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  .card .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  
+  .card a {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .card a:hover {
+    color: #666;
+  }
+
+  /* Section programme */
+
+h2 {
+  font-size: 28px;
+  color: #222;
 }
 
-/* Référence du verset */
-.verse-reference {
-    font-size: 1rem;
-    color: #003366; /* Couleur principale */
-    font-weight: bold;
-    text-align: right;
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 2%;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-primary.active, .btn-outline-primary:focus {
+  background-color: #d3d3d3;
+  color: #fff;
+}
+
+.pagination-dots {
+  display: flex;
+  gap: 10px;
+}
+
+.pagination-dots .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.pagination-dots .dot.active {
+  background-color: #007bff;
+}
+
+/* Section don */
+.don-section {
+  background-image: url('don.png'); /* Remplacez 'background.jpg' par le chemin de votre image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  padding: 50px 0;
+}
+
+/* Texte */
+.don-section h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.text-highlight {
+  color: #fff; /* Couleur rouge pour "Dieu" */
+}
+
+/* Bouton */
+.btn-don {
+  background-color: #fff;
+  color: #c5303a;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-don:hover {
+  background-color: #c5303a;
+}
+
+/* Section publication */
+.recent-publications {
+  background-color: #f9fafc;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #6c757d;
+  height: 4.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* Section newsletter */
+
+.newsletter-section {
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.highlight {
+  color: #dc3545; /* Rouge */
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.highlight1 {
+  color: #1f0205; /* Rouge */
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+form {
+  max-width: 500px;
+  width: 100%;
+}
+
+.email-input {
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid #ced4da;
+  border-radius: 25px;
+  outline: none;
+}
+
+.subscribe-btn {
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background-color: #bb2d3b;
 }
